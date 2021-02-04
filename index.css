@@ -1,0 +1,123 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: #00B6C7;
+    text-align: center;
+}
+
+
+h1 {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight:700;
+    font-size: 18px;
+    color: #2D3248;
+    line-height: 2;
+}
+
+
+h3{
+    color: #969696;
+    font-size: 0.6em;
+    font-weight: 400;
+
+}
+
+
+.top{
+    position: absolute;
+    bottom: 50%;
+    right: 50%;
+    z-index: -1; /* to be behind the content */
+}
+
+.bottom{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1; /* to be behind the content */
+}
+
+
+.container{ /*to the container to be over the two images*/
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;     /* stack flex items vertically */
+    justify-content: center;    /* center items vertically, in this case */
+    align-items: center;        /* center items horizontally, in this case */
+    height: 100%;
+    border: 1px black solid;
+}
+
+
+hr.new{
+    border-top: 1px solid whitesmoke;
+}
+
+
+.bio {
+    height: 370px;
+    width: 350px;
+    background-color: white;
+    text-align: center;
+    box-shadow: 20px 20px 100px #969696;
+    border-radius: 15px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+
+.topCard{
+    background-image: url("images/bg-pattern-card.svg");
+    background-repeat: no-repeat;
+    border-radius: inherit;
+    width: inherit;
+    height: 65%;
+    z-index: -1;
+}
+
+.profile-image {
+    width: 60px;
+    height: 60px;
+    margin: 25px;
+    border-radius: 40px;
+    background-color: #D6E9FE;
+}
+
+.title{
+    font-weight: 400;
+    color: #969696;
+}
+
+
+
+.followers{
+    display: inline-block;
+    width: inherit;
+    background-color: white;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+
+.column{
+    float: left;
+    text-align: center;
+    width: 99px;
+    margin: 8px;
+}
+
+.attribution {
+    clear: left;
+    font-size: 11px;
+    text-align: center; //center
+}
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+
